@@ -50,3 +50,17 @@ devig.decimal_from_american(-110)      # 1.909...
 
 ## License
 MIT. See `LICENSE`.
+
+The Oddvane program
+
+Pre-registered, falsification-first research on prediction markets — plus small, honest tools for anyone doing the same. Published whether the result is exciting or not (so far, mostly not — which is the point).
+
+Studies (pre-registered; null so far):
+- [Oddvane-study-A](https://github.com/DJdover/Oddvane-study-A) — lead-lag on championship futures. No robust lead.
+- [Oddvane-study-A2](https://github.com/DJdover/Oddvane-study-A2) — lead-lag on 871 live in-game markets. No robust lead.
+- [Oddvane-study-D](https://github.com/DJdover/Oddvane-study-D) — cross-venue "who's right" edge. No edge.
+
+Tools (MIT, dependency-light):
+- [Vigil](https://github.com/DJdover/Vigil) — make the dishonest version of a backtest impossible to express.
+- [plumb](https://github.com/DJdover/plumb) — is your forecaster calibrated? Brier / ECE / reliability on your own data.
+- [devig](https://github.com/DJdover/devig) — strip the bookmaker margin; get the fair line.  (this repo)
